@@ -20,7 +20,7 @@ else
     mv permissions.json permissions.json.bak
 
     echo "Extracting server..."
-    unzip /opt/bedrock_server.zip -o -d /data
+    unzip -o /opt/bedrock_server.zip -d /data
 
     echo "Restoring configurations"
     mv server.properties.bak server.properties
