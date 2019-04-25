@@ -6,4 +6,4 @@ docker run --name minecraft -it -d -p 19132:19132 -p 19132:19132/udp -v /your/lo
 
 If using a volume and once deployed, the server.properties, permissions.json, etc files can be modified to your liking and then the server restarted.
 
-Trigger 1.10.0.7
+Trigger 1.11.0.23
